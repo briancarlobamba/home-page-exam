@@ -1,11 +1,185 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="./index.css">
+
+<title>Broom Broom Motor Shop</title>
+
 </head>
 <body>
 
+<!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Broom Broom Motor Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>	
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+<!-- Hero Section -->
+
+    <section id="hero" class="text-white text-center d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="display-2">Welcome to Broom Broom Motor Shop</h1>
+            <p class="display-6">Your adventure starts here!</p>
+            <a href="#" class="btn btn-light btn-lg">Explore Now</a>
+        </div>
+    </section>
+
+
+
+
+<!-- Carousel Section -->
+<section id="carousel" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="carousel slide carousel-dark" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/1.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/2.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/3.jpg" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#bikeCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#bikeCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div>
+                    <h2>Discover Our Bikes</h2>
+                    <p>Explore our range of high-performance motorcycles. Whether you're looking for speed, style, or versatility, we have the perfect bike for you. Get ready to hit the road with our latest models and exceptional deals.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Product Cards -->
+
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Featured Products</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/gsxs1000.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Suzuki GSX-S1000</h5>
+                            <p class="card-text">Born of race-winning, track-proven DNA and raised on the street, the honed physique of the new GSX-S1000 morphs it into an even tighter and more striking package that is ready to turn heads and own the streets. It’s all about commanding performance, confidence-inspiring controllability, rider friendliness, and looks that just can’t be beat. Who knew naked aggression could be so beautiful?</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/gsxs1000gx.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Suzuki GSX-S1000GX</h5>
+                            <p class="card-text">Imagine having the superbike-level performance, confidence-inspiring controllability, optimized comfort, functionality, connectivity and attention to detail one expects of a premium sport-touring experience. Combine that with the versatile capabilities of sport adventure tourers, which are based in features such as a comfortable upright riding position, long front and rear wheel travel, increased ground clearance and new technologies that include Suzuki’s first electronic suspension. What you get is the GSX-S1000GX — the supreme sport crossover that introduces an exciting new expression of luxurious riding comfort and pleasure.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/gsxs1000gt.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Suzuki GSX-S1000GT</h5>
+                            <p class="card-text">Sharp lines. A radical new face featuring a low-slung nose. Fit and finish that exudes beauty and quality. Every aspect of the design visually expresses what you expect of a grand tourer, from superbike performance potential to the sophistication of aerodynamic efficiency, advanced control systems, and smartphone connectivity. Whether touring long distances fully loaded with a passenger on the back or popping out for an exciting solo ride, the GT is the ride you have been looking for. It’s a true GT Tour de Force.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Contact Section -->
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Email</h4>
+                    <p>broombroom@motorshop.com</p>
+                    <h4>Phone</h4>
+                    <p>0912-345-6789<p>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Footer Section -->
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Broom Broom Motor Shop. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
